@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="it"> 
 <head>
     <title>Pillar - Bootstrap 4 Resume/CV Template for Developers</title>
     
@@ -18,7 +18,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
        
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+    <!-- <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css"> -->
 
 
 </head> 
@@ -31,13 +31,14 @@
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="media flex-column flex-md-row">
-				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
+				   <!--  <img class="mr-3 img-fluid picture mx-auto" src="app/assets/images/profile.jpg" alt=""> -->
+				   <%= image_tag ("https://fakeimg.pl/300/"), class: "mr-3 img-fluid picture mx-auto"%>
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Lorenzo Palazzina</h1>
 						    <div class="title mb-3">Sistemista</div>
 						    <ul class="list-unstyled">
-							    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>lorenzo.palazizna@gmail.com</a></li>
+							    <li class="mb-2"><a href="mailto: lorenzo.palazzina@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>lorenzo.palazzina@gmail.com</a></li>
 							    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+39 3392254336</a></li>
 						    </ul>
 					    </div><!--//primary-info-->
@@ -75,7 +76,7 @@
 										    <div class="resume-position-time">2019 ad Oggi</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Gestione e validazione GPO,Wsus,Creazione e aggiornamento immagini di sistema Client/Server,Office 365,MDM Intune,Azure AD</p>
+										    <p>Attività di monitoraggio, Gestione e validazione GPO,Wsus,Creazione e aggiornamento immagini di sistema Client/Server,Office 365,MDM Intune,Azure AD</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 										    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 										    <ul>
