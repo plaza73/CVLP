@@ -29,7 +29,7 @@
 
 
 // Define theme colour scheme
-$theme-color-primary: #434E5E;
+$theme-color-primary: #AABBBC;
 
 $theme-text-color-primary: #434E5E;
 $theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
@@ -79,6 +79,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 
 .progress {
 	@include border-radius(2px);
+	height: 0.5rem !important;
 }
 
 .theme-progress-bar-dark {
