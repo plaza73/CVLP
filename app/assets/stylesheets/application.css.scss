@@ -83,7 +83,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 .theme-progress-bar-dark {
-	background-color: $theme-color-primary;
+	background-color: $theme-color-primary!important;
 	
 }
 
@@ -242,7 +242,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 .resume-award-icon {
 	left: 0;
 	top: 4px;
-	color: $theme-text-color-light;
+	color: #01A6F0;/*$theme-text-color-light;*/
 }
 
 .resume-award-name {
